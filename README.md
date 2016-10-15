@@ -1,2 +1,2 @@
 # google-homepage
-Odin project lesson.
+Clone of the Google homepage. Odin project lesson.
