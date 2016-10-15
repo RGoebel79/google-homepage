@@ -1,0 +1,141 @@
+.main{
+  text-align: center;
+}
+.top {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  margin: auto;
+  padding;
+  display: block;
+}
+.gmail{
+  color: gray;
+  padding: 5px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+.gmail:hover{
+  color: black;
+  text-decoration: underline;
+  
+}
+.material-icons, gmail{
+  color: gray;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding: 5px;
+}
+.material-icons:hover{
+      color: black;
+}
+
+.sign {
+  color: white;
+  background-color: #4285f4;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  height: 36px;
+  padding: 0 16px 0 16px;
+  border: 1px solid #4285f4;
+  vertical-align: middle;
+}
+.sign:hover{
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.logo {
+  display: block;
+  margin: 150px auto 10px auto;
+ }
+#input {
+  display: inline-block;
+  margin: auto;
+  width: 450px;
+  height: 34px;
+  padding: 0 10px 0 10px;
+  border: 1px solid gray;
+  border-right: none;
+}
+#mic{
+  border: 1px solid gray;
+  border-left:none;
+  
+}
+#input:hover{
+  border: 1px solid black;
+  border-right:none;
+}
+#input:hover + #mic{
+  border: 1px solid black;
+  border-left: none;
+}
+#input:focus{
+  outline:none;
+  border: 1px solid blue;
+  border-right:none;
+}
+#input:focus + #mic{
+  border: 1px solid blue;
+  border-left: none;
+}
+.butts{
+  text-align: center;
+}
+.but {
+  
+  display: inline-block;
+  color: #757575;
+  backgroun-color:#f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  height: 36px;
+  padding: 0 16px 0 16px;
+  text-align: center;
+  cursor: default;
+}
+.but:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  
+}
+.bottom {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: #f2f2f2;
+  width:100%;
+  height: 40px;
+}
+.left {
+  font-family: arial,sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #666;
+  padding: 10px !important;
+  float: left;
+  font-size:small;
+}
+.right{
+  font-family: arial,sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #666;
+  float: right;
+  text-align: right;
+  padding:10px;
+  font-size:small;
+}
+.left:hover, .right:hover{
+  color:black;
+  text-decoration:underline;
+}
