@@ -18,7 +18,6 @@
 .gmail:hover{
   color: black;
   text-decoration: underline;
-  
 }
 .material-icons, gmail{
   color: gray;
@@ -30,7 +29,6 @@
 .material-icons:hover{
       color: black;
 }
-
 .sign {
   color: white;
   background-color: #4285f4;
@@ -85,10 +83,8 @@
   text-align: center;
 }
 .but {
-  
   display: inline-block;
   color: #757575;
-  backgroun-color:#f2f2f2;
   border: 1px solid #f2f2f2;
   font-family: arial,sans-serif;
   font-size: 13px;
